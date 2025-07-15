@@ -63,10 +63,10 @@ int a;
 cout<<"enter any number \n";
 cin>> a;
 if(5<a&&a<10){
-    cout<<"yes \n";
+    cout<<"Yes \n";
 } 
 else{
-    cout<<"nooo";
+    cout<<"Nooo";
 }
 */
 
