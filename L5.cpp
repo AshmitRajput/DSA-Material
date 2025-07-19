@@ -51,4 +51,26 @@ int main(){
     cout<<ans;
     */
 
+                                          /* TO CHECK IF GIVEN INPUT IS IN POWER OF 2*/
+    /*
+   int n,ans=1;
+   cout<<"Enter a number:";
+   cin>>n;
+
+   while(ans <= (pow(2,31)-1))
+   {
+    if (ans == n)
+    {
+        cout<<"yes\n";
+        break;
+    }
+    ans = ans*2;
+   }
+     
+       if (ans != n)
+    {
+        cout<<"no";
+    }
+   */
+
 }
