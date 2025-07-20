@@ -83,4 +83,77 @@ int bitsb(int b)
         cout<<"kuch bhi bhai\n";
     }
     */
+                                        //MINI CALCULATOR 
+    
+    
+    /*    int a,b;
+    cout<<"Enter first number :\n";
+    cin>>a;
+
+    cout<<"Enter second number :\n";
+    cin>>b;
+
+    char op;
+    cout<<"Enter a valid operator :\n";
+    cin>>op;
+
+    switch (op)
+    {
+    case '+':
+        cout<<"ans:\n"<<(a+b);
+        break;
+    case '-':
+        cout<<"ans:\n"<<(a-b);
+        break;
+    case '%':
+        cout<<"ans:\n"<<(a%b);
+        break;
+    case '/':
+        cout<<"ans:\n"<<(a/b);
+        break;        
+    case '*':
+        cout<<"ans:\n"<<(a*b);
+        break;
+    
+    default:
+        cout<<"kuch bhi bol raha h bhai\n";
+    }
+    */
+
+
+                          //TO FIND THE NUMBER OF RS100, RS50, RS20 AND RS10 NOTES 
+                        //REQUIRED FOR A CERTAIN AMOUNT USING SWITCH CASE.
+
+  /*
+  int amount;
+  cout<<"Enter the amount";
+  cin>>amount;
+  int Rs100 , Rs50 , Rs20 , Rs1;
+  cout<<"Enter Rs100,Rs50,Rs20 and Rs10 to find the number of notes required:";
+
+  switch(1)
+  {
+      case 1: Rs100=amount/100;
+              amount=amount%100;
+              cout<<"No of 100 Rupee notes required are="<<Rs100;
+              
+         
+      case 2: Rs50=amount/50;
+              amount=amount%50;
+              cout<<"No of 50 Rupee notes required are="<<Rs50;
+              
+
+      case 3: Rs20=amount/20;
+              amount=amount%20;
+              cout<<"No of 20 Rupee notes required are="<<Rs20;
+               
+
+      case 4: Rs1=amount/1;
+              amount=amount%1;
+              cout<<"No of 1 Rupee notes required are="<<Rs1; 
+                  
+           }
+           */
+
+
    }
