@@ -154,6 +154,42 @@ int bitsb(int b)
                   
            }
            */
+                                //FIND AP WALA QUESTION.
+ /*
+  int n;
+  cin>>n;
+  int ans=AP(n);
+  cout<<"Answer is="<<ans<<endl;
 
+  return 0;
+
+*/
+
+                            //BITS M 1 COUNT KARNE WALA QUESTION.
+/*
+  int a,b;
+  cin>>a>>b;
+  int ans1=bitsa(a);
+  int ans2=bitsb(b);
+  cout<<"Set bits of A="<<ans1<<endl;
+  cout<<"Set bits of B="<<ans2<<endl;
+  int ans=ans1+ans2;
+
+  cout<<"Total set bits of A and B are ="<<ans<<endl;
+
+  return 0;
+*/
+ 
+
+
+                            // PRINT FIBONACCI KA Nth TERM.
+  /*
+    int n;
+    cin >> n;
+    
+    cout << "The " <<n<<"th term of the series is = "<< fibonacci(n) << endl;
+
+    return 0;
+*/    
 
    }
