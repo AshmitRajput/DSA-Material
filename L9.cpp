@@ -25,7 +25,8 @@
   Use libraries for standard complex operations when 
   allowed (like built-in sorts).
 
-  for them to avoid TLE
+
+  for them to avoid TLE:
         <[10...11]   - O(n!).O(n^6)  
         <[15...18]   - O(2^n * n^2)
         <[100]       - O(n^4)
