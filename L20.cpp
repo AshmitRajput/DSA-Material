@@ -29,11 +29,27 @@ Node* Convertarr2LL(vector<int> &arr){
     }
     return head;    
 }
+int lengthofLL(Node* head){
+ Node* temp = head;
+ int count=0;
+ while(temp){
+ count++;
+ temp=temp->next;
+ }
+ return count;   
+}
 
 int main(){
-vector<int>arr = {0,5,7,8};
-Node* head = Convertarr2LL(arr);
-cout<<head->data<<endl;
+ vector<int>arr = {0,5,7,8};
+ Node* head = Convertarr2LL(arr);
+ cout<<head->data<<endl;
+ Node* temp = head;
+ while(temp){
+ cout<<temp->data<<" ";
+ temp=temp->next;
+ }
+ int length = lengthofLL(head);
+ cout<<length<<endl;
 }
 
 
