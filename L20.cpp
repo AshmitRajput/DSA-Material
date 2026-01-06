@@ -54,3 +54,66 @@ int main(){
 
 
 */
+
+/*
+//Doubly linkedlist node creation
+
+class DLNode{
+    public: 
+    int data;
+    DLNode* next;
+    DLNode* prev;
+    public:
+    DLNode(int data1,DLNode* next1,DLNode* prev1){
+        data=data1;
+        next=next1;
+        prev=prev1;
+    }
+    DLNode(int data1){
+        data=data1;
+        next=nullptr;
+        prev=nullptr;
+    }
+
+};
+
+DLNode* Convertarr2DLL(vector<int> &arr){
+    DLNode* head=new DLNode(arr[0]);
+    DLNode* mover=head;
+    for(int i=1;i<arr.size();i++){
+        DLNode* temp = new DLNode(arr[i]);
+        temp->prev=mover;
+        mover->next = temp;
+        mover=temp;
+    }
+    return head;    
+}
+int lengthofDLL(DLNode* head){
+ DLNode* temp = head;
+ int count=0;
+ while(temp){
+ count++;
+ temp=temp->next;
+ }
+ return count;   
+}
+
+void printDLL(DLNode* head){
+ DLNode* temp = head;
+ while(temp){
+ cout<<temp->data<<" ";
+ temp=temp->next;
+ }
+ cout<<endl;
+ }
+
+ void printDLLReverse(DLNode* tail){
+    DLNode* temp=tail;
+    while(temp){
+        cout<<temp->data<<" ";
+        temp=temp->prev;
+    }
+        cout<<endl;
+}
+
+*/
